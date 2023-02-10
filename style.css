@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -131,10 +132,11 @@
       background: url(./images/buisness-main.png);
       height: 578px;
       background-repeat: no-repeat;
-      padding: 50px 0;
+      margin-top: 150px;
     }
     .business-cards{
       display: flex;
+      flex-wrap: wrap;
       align-items: flex-end;
       justify-content: center;
       gap: 40px;
@@ -145,10 +147,11 @@
       background: #FFFFFF;
       box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
+      padding: 18px 0 0 19px;
     }
     .our-buisness h1{
       text-align: center;
-      padding: 85px;
+      padding: 85px 0;
       font-family: 'Hind Vadodara';
       font-style: normal;
       font-weight: 700;
@@ -170,9 +173,345 @@
     .business-cards .three{    
       background: #D4F0FF;
     }
+    .card h2{
+      padding-top: 13px;
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 137.3%;
+      letter-spacing: 0.055em;
+      text-transform: uppercase;
+      color: #331B3B;
+      padding-bottom: 6px;
+    }
+    .card p{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 145.3%;
+      letter-spacing: 0.02em;
+      color: rgba(51, 27, 59, 0.66);
+    }
 /* Buisness Css End */
 
+/* About Css Start */
+    .about-text h1{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 106.3%;
+      letter-spacing: -0.01em;
+      color: #331B3B;
+      padding-bottom: 20px;
+    }
+    .about-text span{
+      font-weight: 200;
+    }
+    .about-text p{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 146.3%;
+      letter-spacing: 0.02em;
+      color: rgba(51, 27, 59, 0.66);
+      padding-bottom: 9px;
+    }
+    .about-text h5{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 146.3%;
+      letter-spacing: 0.02em;
+      color: rgba(51, 27, 59, 0.66);
+      padding-bottom: 35px;
+    }
+    .about-text button{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 137.3%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 21px 40px;
+      background: #331B3B;
+      border-radius: 10px;
+      border: none;
+    }
+    .about-us{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 105px;
+      justify-content: center;
+      padding: 75px 0;
+      flex-wrap: wrap;
+    }
+    .about-circle{
+      background: url(./images/about-round.png);
+      background-repeat: no-repeat;
+    }
+    .about-imgs{
+      height: 100%;
+      position: relative;
+    }
+    .about-main{
+      position: absolute;
+      top: -35%;
+      left: -5%;
+    }
+/* About Css End */
 
+/* Our-works Css Start */
+    .our-work{
+      background: rgba(255, 222, 212, 0.3);
+      padding: 50px 40px;
+    }
+    .work-title{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 85px;
+    }
+    .work-title h1{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 106.3%;
+      letter-spacing: -0.01em;
+      color: #331B3B;
+    }
+    .work-title span{
+      font-weight: 100;
+    }
+    .work-title p{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 146.3%;
+      letter-spacing: 0.02em;
+      color: #331B3B;
+    }
+    .work-cards{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 43px;
+      justify-content: center;
+    }
+    .workcard{
+      width: 419px;
+      height: 365px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      display: flex;
+      gap: 11px;
+      padding: 24px 0 0 4px;
+    }
+    .screenshot-one h4{
+      padding-top: 33px;
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 146.3%;
+      color: #331B3B;
+      padding-left: 30px;
+    }
+    .screenshot-one button{
+      border: 1px solid #343434;
+      border-radius: 100px;
+      padding: 2px 12px;
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 146.3%;
+      color: #331B3B;
+    }
+    .viewbtn{
+      padding-top: 33px;
+    }
+    .workarrows{
+      padding-left: 100px;
+    }
+/* Our-works Css End */
+
+/* Testimonial Css Start */
+    .testimonial{
+      padding: 75px 0;
+    }
+    .testimonial h1{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 110.8%;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: #331B3B;
+      padding-bottom: 55px;
+    }
+    .testimonial span{
+      font-weight: 100;
+    }
+    .testimonial-card{
+      width: 448px;
+      height: 310px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+      padding: 35px 35px 0 29px;
+    }
+    .our-testimnial{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 60px;
+    }
+    .testimonial-card p{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      color: #331B3B;
+      padding-top: 20px;
+    }
+    .dash{
+      width: 11px;
+      height: 0px;
+      border: 3px solid #FDC221;
+    }
+    .testimonial-profile{
+      padding-top: 4px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .testimonial-profile h3{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+/* Testimonial Css End */
+
+/* Footer Css Start */
+    .footer{
+      height: 453px;
+      background: #000000;
+      border-radius: 0px 158px 0px 0px;
+      display: flex;
+      justify-content: center;
+      gap: 150px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .footer-text h1{
+      font-family: 'Playfair Display';
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+      padding-bottom: 15px;
+    }
+    .footer-text p{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      padding-bottom: 10px;
+    }
+    .footer-text h2{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding-bottom: 15px;
+    }
+    .footer-text input{
+      padding: 13px 105px 14px 13px;
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      background: transparent;
+    }
+    .footer-text button{
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      padding: 16px 52px;
+      margin-left: -5px;
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 159.3%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    .footer-img{
+      position: relative;
+    }
+    .footer-address-img{
+      position: absolute;
+      top: 5%;
+      left: 5%;
+    }
+    .address{
+      width: 197px;
+      height: 84px;
+      background: #FFFFFF;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    }
+    .address h1{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 134.8%;
+      color: #414141;
+      padding: 5px;
+    }
+    .address span{
+      font-weight: 200;
+    }
+    .address a{
+      font-family: 'Hind Vadodara';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 159.3%;
+      color: #51A0DC;
+      padding: 5px;
+    }
+/* Footer Css End */
 
 
 
@@ -203,4 +542,65 @@
     .home h1{
       font-size: 50px;
     }
+    .our-buisness{
+      height: 100%;
+      background: none;
+    }
+    .arrows{
+      display: none;
+    }
+    .about-us{
+      position: static;
+      padding: 15px;
+      /* text-align: center; */
+    }
+    .footer img{
+      width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+  .work-title{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1122px) {
+  .about-imgs{
+    display: none;
+  }
+  .our-buisness{
+    height: 100%;
+    background: none;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .our-work{
+    padding: 10px;
+    background-color: #FFFFFF;
+  }
+  .workcard{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 2px;
+  }
+  .work-cards img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1142px) {
+  .footer{
+    padding: 25px;
+    height: 100%;
+    gap: 25px;
+    border-radius: 0;
+    text-align: center;
+  }
 }
